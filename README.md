@@ -1,4 +1,4 @@
-classDiagram   
+        classDiagram   
 
         class ReprodutorMusical {
         +tocar()
