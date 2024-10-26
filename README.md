@@ -1,27 +1,26 @@
-classDiagram
-    class ReprodutorMusical {
+classDiagram   
+
+class ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String Castlevania)
-    }
-
-    class AparelhoTelefonico {
+    }   
+class AparelhoTelefonico {
         +atender()
         +iniciarCorreioVoz()
         +ligar(Int 11994502042)
-    }
-
-    class NavegadorInternet {
+    }    
+class NavegadorInternet {
         +exibirPagina(String google.com.br)
         +adicionarNovaAba()
         +atualizarPagina()
-    }
-
-    class iPhone {
+    }    
+class iPhone {
         +ligar()
         +desligar()
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    
+iPhone --> ReprodutorMusical    
+iPhone --> AparelhoTelefonico    
+iPhone --> NavegadorInternet
