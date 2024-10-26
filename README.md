@@ -24,3 +24,4 @@
         iPhone --> ReprodutorMusical    
         iPhone --> AparelhoTelefonico    
         iPhone --> NavegadorInternet
+![Untitled diagram-2024-10-26-152614](https://github.com/user-attachments/assets/23b61fe3-f264-400b-b214-d20345fc4705)
